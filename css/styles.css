@@ -6,6 +6,7 @@
   --secondary-bg-color: #2f303a;
   --subsecondary-bg-color: #f5f4fa;
   --logo-black-color: #000000;
+  --bg-gradient: rgba(47, 48, 58, 0.4);
 }
 
 body {
@@ -119,6 +120,23 @@ img {
   line-height: 1.14;
   text-decoration: none;
 }
+.auth-nav-link::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.envelope::before {
+  background-image: url(../images/png/envelope.png);
+}
+
+.smartphone::before {
+  background-image: url(../images/png/smartphone.png);
+}
 
 .auth-nav-link:hover,
 .auth-nav-link:focus {
@@ -130,6 +148,22 @@ img {
 /* =====MAIN===== */
 
 /* Hero */
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      to right,
+      var(--bg-gradient),
+      var(--bg-gradient)
+    ),
+    url(../images/bg/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
@@ -187,6 +221,32 @@ input[type="radio"].visually-hidden {
 
 .features .item {
   max-width: 270px;
+}
+
+.features .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--subsecondary-bg-color);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-antenna::before {
+  background-image: url(../images/png/antenna.png);
+}
+
+.icon-clock::before {
+  background-image: url(../images/png/clock.png);
+}
+
+.icon-diagram::before {
+  background-image: url(../images/png/diagram.png);
+}
+
+.icon-astronaut::before {
+  background-image: url(../images/png/astronaut.png);
 }
 
 .features .item.item:not(:last-child) {
