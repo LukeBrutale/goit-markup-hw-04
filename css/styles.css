@@ -217,6 +217,25 @@ input[type="radio"].visually-hidden {
   max-width: 270px;
 }
 
+.thumb {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--subsecondary-bg-color);
+}
+
+.thumb .icon-antenna {
+  /* background-color: red; */
+  background-position: center;
+}
+
+/* .features .icon {
+  display: block;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--subsecondary-bg-color);
+} */
+
 /* .features .item::before {
   display: block;
   content: "";
