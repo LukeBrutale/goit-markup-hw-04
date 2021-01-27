@@ -120,23 +120,17 @@ img {
   line-height: 1.14;
   text-decoration: none;
 }
-.auth-nav-link::before {
-  display: inline-block;
-  content: "";
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
-.envelope::before {
+.icon {
+  display: inline-block;
+}
+/* .envelope::before {
   background-image: url(../images/png/envelope.png);
 }
 
 .smartphone::before {
   background-image: url(../images/png/smartphone.png);
-}
+} */
 
 .auth-nav-link:hover,
 .auth-nav-link:focus {
@@ -223,7 +217,7 @@ input[type="radio"].visually-hidden {
   max-width: 270px;
 }
 
-.features .item::before {
+/* .features .item::before {
   display: block;
   content: "";
   height: 120px;
@@ -247,7 +241,7 @@ input[type="radio"].visually-hidden {
 
 .icon-astronaut::before {
   background-image: url(../images/png/astronaut.png);
-}
+} */
 
 .features .item.item:not(:last-child) {
   margin-right: 30px;
