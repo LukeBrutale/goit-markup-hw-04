@@ -402,6 +402,8 @@ input[type="radio"].visually-hidden {
 .button-nav .btn:focus {
   color: var(--primary-write-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%),
+    0px 2px 2px rgb(0 0 0 / 12%);
 }
 
 /* Works */
@@ -507,6 +509,7 @@ input[type="radio"].visually-hidden {
 
 .footer {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo {
