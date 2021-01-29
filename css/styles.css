@@ -223,45 +223,6 @@ input[type="radio"].visually-hidden {
   background-color: var(--subsecondary-bg-color);
 }
 
-.thumb .icon-antenna {
-  /* background-color: red; */
-  background-position: center;
-}
-
-/* .features .icon {
-  display: block;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--subsecondary-bg-color);
-} */
-
-/* .features .item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--subsecondary-bg-color);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-antenna::before {
-  background-image: url(../images/png/antenna.png);
-}
-
-.icon-clock::before {
-  background-image: url(../images/png/clock.png);
-}
-
-.icon-diagram::before {
-  background-image: url(../images/png/diagram.png);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/png/astronaut.png);
-} */
-
 .features .item.item:not(:last-child) {
   margin-right: 30px;
 }
@@ -353,6 +314,16 @@ input[type="radio"].visually-hidden {
   line-height: 1.9;
 }
 
+.social-list-link {
+  width: 44px;
+  height: 44px;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+}
+
 /* button */
 
 .button-nav {
@@ -380,6 +351,7 @@ input[type="radio"].visually-hidden {
   border-radius: 4px;
   border-color: transparent;
   padding: 10px 32px;
+  cursor: pointer;
 
   color: var(--primary-write-color);
   background-color: var(--accent-color);
