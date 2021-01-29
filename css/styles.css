@@ -6,6 +6,7 @@
   --secondary-bg-color: #2f303a;
   --subsecondary-bg-color: #f5f4fa;
   --logo-black-color: #000000;
+  --icon-color: #afb1b8;
   --bg-gradient: rgba(47, 48, 58, 0.4);
 }
 
@@ -120,16 +121,9 @@ img {
   line-height: 1.14;
   text-decoration: none;
 }
-
+/* 
 .icon {
   display: inline-block;
-}
-/* .envelope::before {
-  background-image: url(../images/png/envelope.png);
-}
-
-.smartphone::before {
-  background-image: url(../images/png/smartphone.png);
 } */
 
 .auth-nav-link:hover,
@@ -218,9 +212,15 @@ input[type="radio"].visually-hidden {
 }
 
 .thumb {
+  text-align: center;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--subsecondary-bg-color);
+}
+
+.thumb .icon {
+  justify-content: center;
+  align-items: center;
 }
 
 .features .item.item:not(:last-child) {
@@ -296,8 +296,11 @@ input[type="radio"].visually-hidden {
 .masters-contact {
   text-align: center;
 
+  border-radius: 0px 0px 4px 4px;
+
   padding: 30px;
   width: 270px;
+  background-color: var(--primary-write-color);
 }
 
 .section-team {
@@ -312,16 +315,38 @@ input[type="radio"].visually-hidden {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
+  margin-bottom: 16px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 44px;
   height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--primary-write-color);
 }
 
 .social-list-icon {
   width: 20px;
   height: 20px;
+  fill: var(--icon-color);
 }
 
 /* button */
@@ -422,6 +447,16 @@ input[type="radio"].visually-hidden {
   font-size: 16px;
   line-height: 1.9;
 }
+
+/* =====CLIENT===== */
+
+.company-link {
+  display: inline-flex;
+  width: 170px;
+  height: 90px;
+}
+
+/* =====END CLIENT===== */
 
 /* =====END MAIN===== */
 
