@@ -331,14 +331,20 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
+.social-list-item {
+  width: 44px;
+  height: 44px;
+}
+
 .social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   background-color: var(--primary-write-color);
   border-radius: 50%;
+  fill: var(--icon-color);
 }
 
 .social-list-link:hover,
@@ -354,7 +360,6 @@ input[type="radio"].visually-hidden {
 .social-list-icon {
   width: 20px;
   height: 20px;
-  fill: var(--icon-color);
 }
 
 /* button */
@@ -482,14 +487,20 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
+.company-list-item {
+  width: 170px;
+  height: 90px;
+}
+
 .company-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid var(--icon-color);
   border-radius: 4px;
-  width: 170px;
-  height: 90px;
+  width: 100%;
+  height: 100%;
+  fill: var(--icon-color)
 }
 
 .company-list-link:hover,
@@ -502,9 +513,6 @@ input[type="radio"].visually-hidden {
   fill: var(--accent-color);
 }
 
-.company-list-icon {
-  fill: var(--icon-color);
-}
 
 /* =====END CLIENTS===== */
 
@@ -583,14 +591,20 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
+.footer-social-item {
+  width: 44px;
+  height: 44px;
+}
+
 .footer-social-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 100%;
+  height: 100%;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  fill: var(--primary-write-color)
 }
 
 .footer-social-link:hover,
@@ -601,7 +615,6 @@ input[type="radio"].visually-hidden {
 .footer-social-icon {
   width: 20px;
   height: 20px;
-  fill: var(--primary-write-color);
 }
 
 .conect {
