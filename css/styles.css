@@ -306,7 +306,7 @@ input[type="radio"].visually-hidden {
 
   border-radius: 0px 0px 4px 4px;
 
-  padding: 30px;
+  padding: 32px;
   width: 270px;
   background-color: var(--primary-write-color);
 }
@@ -386,6 +386,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hero-btn {
+  min-width: 200px;
   border-radius: 4px;
   border-color: transparent;
   padding: 10px 32px;
